@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<coches>
+    <coche>
+        <anio>12</anio>
+        <marca>asdfsf</marca>
+        <matricula>asdf</matricula>
+        <modelo>asdfsa</modelo>
+    </coche>
+    <coche>
+        <anio>3</anio>
+        <marca>gfsdgdgdsg</marca>
+        <matricula>tyutyu</matricula>
+        <modelo>tytyutu</modelo>
+    </coche>
+    <coche>
+        <anio>3</anio>
+        <marca>dfsfs</marca>
+        <matricula>gdfg</matricula>
+        <modelo>sdfs</modelo>
+    </coche>
+    <coche>
+        <anio>3</anio>
+        <marca>SDFS</marca>
+        <matricula>SDFSF</matricula>
+        <modelo>SDFSF</modelo>
+    </coche>
+    <coche>
+        <anio>2</anio>
+        <marca>FSDFDSF</marca>
+        <matricula>SDFSF</matricula>
+        <modelo>SFSDF</modelo>
+    </coche>
+    <coche>
+        <anio>3</anio>
+        <fechaVenta>sdffsdf</fechaVenta>
+        <marca>sdfs</marca>
+        <matricula>fsdf</matricula>
+        <modelo>fsdfs</modelo>
+    </coche>
+</coches>
