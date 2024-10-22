@@ -26,17 +26,13 @@ public class MainFrame extends JFrame {
         setLayout(new BorderLayout());
 
         logo = new JLabel();
-        URL logoURL = getClass().getResource("imagen.png");
-        if (logoURL == null) {
-            System.err.println("No se pudo encontrar imagen.png");
-        } else {
-            ImageIcon logoIcon = new ImageIcon(logoURL);
-            logo.setIcon(logoIcon);
-        }
-        add(logo, BorderLayout.NORTH);
+        ImageIcon logoIcon = new ImageIcon("src/main/resources/imagen.png");
+        logo.setIcon(logoIcon);
 
         JPanel inputPanel = new JPanel();
+
         inputPanel.setLayout(new GridLayout(6, 2));
+
 
         inputPanel.add(new JLabel("Marca:"));
         marcaField = new JTextField();
@@ -68,6 +64,9 @@ public class MainFrame extends JFrame {
 
         cochesArea = new JTextArea();
         add(new JScrollPane(cochesArea), BorderLayout.CENTER);
+        
+        add(logo, BorderLayout.CENTER);
+
     }
 
     public String getMarca() {

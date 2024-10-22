@@ -32,9 +32,15 @@
     </coche>
     <coche>
         <anio>3</anio>
-        <fechaVenta>sdffsdf</fechaVenta>
         <marca>sdfs</marca>
         <matricula>fsdf</matricula>
         <modelo>fsdfs</modelo>
+    </coche>
+    <coche>
+        <anio>34</anio>
+        <fechaVenta>213242</fechaVenta>
+        <marca>sdfsadfsdafsasdf</marca>
+        <matricula>sdfdgher</matricula>
+        <modelo>sdfsad</modelo>
     </coche>
 </coches>
